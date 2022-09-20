@@ -1,3 +1,5 @@
 # Brandon's Notes
-# This is an H1 header (largest)
-###### This is an H6 header (smallest)
+## Summary 
+This is a repository of all notes taken by [Brandon Rose](https://github.com/BRCanada) for [LHL Data Science](https://www.lighthouselabs.ca/en/data-science-bootcamp).
+
+
