@@ -1,0 +1,15 @@
+/* Write a query that returns a product name and its quantity/unit. */
+SELECT ProductName, UnitsInStock AS Quantity 
+    FROM products;
+
+/*  Write a query to select all product names and their category ID */
+SELECT ProductName, CategoryId
+    FROM products;
+
+/*  Write a query to get the firstname, lastname 
+and hiredate for employees who have been working at
+their company for more than 5 years*/
+
+SELECT FirstName AS First_Name, LastName AS Last_Name, hiredate AS Hire_Date
+    FROM employees
+    WHERE CURRENT_DATE - hiredate > 5;

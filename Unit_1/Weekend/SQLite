@@ -1,0 +1,4 @@
+SELECT Name FROM artists
+    WHERE ArtistId NOT IN (SELECT ArtistId from albums)
+    GROUP BY Name
+
